@@ -290,4 +290,45 @@ body {
     justify-self: start;
     font-size: 0.9rem;
   }
+}
+@media only screen and (min-width: 1440px) {
+  .profile-card {
+    width: 240px;
+    height: 450px;
+  }
+  .profile-card__profile {
+    grid-template-columns: 20px calc(100% - 60px) 20px;
+    grid-template-rows: 25px max-content 15px max-content auto auto 25px;
+  }
+  .profile-card__picture-cont {
+    width: 70px;
+    height: 70px;
+  }
+  .profile-card__report-text {
+    font-size: 1rem;
+  }
+  .profile-card__name {
+    font-size: 2.3rem;
+  }
+  .profile-card__button-cont {
+    padding: 20px 25px;
+  }
+  .profile-card__button {
+    font-size: 1rem;
+  }
+  .card {
+    width: 240px;
+    height: 210px;
+  }
+  .card__icon {
+    width: 75px;
+  }
+  .card__main {
+    grid-template-columns: 15px auto auto 15px;
+    grid-template-rows: 15px auto auto auto auto 15px;
+    gap: 13px;
+  }
+  .card__time {
+    font-size: 2.7rem;
+  }
 }/*# sourceMappingURL=style.css.map */

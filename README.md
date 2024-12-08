@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.JPG)
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/time-tracking-dashboard-Tzjj3ceOwG)
+- Live Site URL: [live site URL here](https://gilangr1440.github.io/time-tracking-dashboard/)
 
 ## My process
 

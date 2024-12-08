@@ -47,7 +47,7 @@ async function showData(timeframes = "daily") {
 function createCard(data, timeframes) {
   return `
         <div class="card card_bg_${data.title.toLowerCase().replace(/\s/g, "-")}">
-        <img src="images/icon-${data.title.toLowerCase().replace(/\s/g, "-")}.svg" alt="work-icon" class="card__icon" />
+        <img src="images/icon-${data.title.toLowerCase().replace(/\s/g, "-")}.svg" alt="work-icon" class="card__icon ${data.title.toLowerCase() === "exercise" ? "card__icon_top_0" : ""}" />
         <div class="card__main">
             <div class="card__header">
             <h2 class="card__title">${data.title}</h2>
